@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./form-link-challenge.css">
+    <title>Pseudoclasses</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="enabledInput">Enabled Input: </label>
+            <input type="text" name="enabledInput"  />
+        </div>
+        <div>
+            <label for="disabledInput">Disabled Input: </label>
+            <input type="text" name="disabledInput" disabled />
+        </div>
+        <div>
+            <label for="requiredEnabledInput">Required / Enabled Input: </label>
+            <input type="text" name="requiredEnabledInput" required  />
+        </div>
+        <div class="submit">
+            <input type="submit" value="Disabled Submit" id="disabledSubmit" disabled>
+            <input type="submit" value="Enabled Submit">
+        </div>
+    </form>
+    <br>
+    <br>
+    <!--links-->
+    <p>This is a visited link: <a href="https://www.w3schools.com/">W3Schools</a></p>
+    <p>This is an unvisited link: <a href="http://facebook.com">Facebook</a></p>
+</body>
+</html>
