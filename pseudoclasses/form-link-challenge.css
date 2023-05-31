@@ -1,0 +1,45 @@
+div {
+    margin: 10px 15px;
+}
+
+.submit {
+    margin-left: 25px;
+}
+
+input {
+    border-radius: 5px;
+}
+
+input:enabled {
+    background-color: lightskyblue;
+}
+
+input:required {
+    border-color: red;
+}
+
+#disabledSubmit {
+    color: rgb(75, 75, 75);
+}
+
+/* CSS Styles for the links */
+
+a:link {
+    color:red;
+}
+
+a:visited {
+    color:green;
+}
+
+a:hover {
+    color:pink;
+}
+
+a:active {
+    background-color: orange;
+    color: black;
+}
+
+
+
