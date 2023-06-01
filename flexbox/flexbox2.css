@@ -19,8 +19,8 @@ div {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 33.3%;
-    height:75%;
+    width: calc(100% / 3);
+    height: 100%;
 }
 
 #blueCard {
