@@ -1,0 +1,11 @@
+@mixin textStyle {
+    align-items: center;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+}
+
+@mixin borderStyle ($style, $color) {
+    border: 3px $style $color;
+}

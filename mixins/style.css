@@ -1,0 +1,22 @@
+p {
+  align-items: center;
+  font-family: Arial;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px;
+}
+
+.button {
+  border: 3px dotted red;
+  background-color: #e0dede;
+}
+
+.chip {
+  border: 3px solid blue;
+}
+
+.pill {
+  border: 3px dashed blue;
+}
+
+/*# sourceMappingURL=style.css.map */
