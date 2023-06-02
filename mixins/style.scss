@@ -1,0 +1,18 @@
+@use 'mixins';
+
+p {
+    @include mixins.textStyle;
+}
+
+.button {
+    @include mixins.borderStyle(dotted , red);
+    background-color: #e0dede;
+}
+
+.chip {
+    @include mixins.borderStyle(solid, blue);
+}
+
+.pill {
+    @include mixins.borderStyle(dashed, blue);
+}
