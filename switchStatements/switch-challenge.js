@@ -94,6 +94,3 @@ switch(childEyeColor) {
         console.log("My least favourite eye color");
         break;
 }
-
-let test = "test";
-let testAgain = "testingAgain";
