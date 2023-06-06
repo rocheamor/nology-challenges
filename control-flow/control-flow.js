@@ -35,13 +35,6 @@ If the input is a number, it should console log that number but squared
 If the input is a string, it should console log that input
 If the input is anythig else, the console should say "invalid input"*/
 
-let userInput = prompt("Please enter something");
-if (typeof parseInt(userInput) === "number") {
-    console.log(userInput ** 2);
-} else if (typeof parseInt(userInput) == "NaN") {
-    console.log(userInput);
-}
-
 /*let userInput = 5;
 
 if (typeof userInput === "number"){
@@ -52,12 +45,15 @@ else if (typeof userInput === "string") {
 }
 else{
     console.log("Invalid input")
-}*/
+} */
 
-
-/*let userInput = prompt("Enter user input:");
-
-const asNum = parseInt(userInput);
-if (!isNaN(asNum)) console.log(Math.pow(asNum, 2));
-else if (typeof userInput === "string") console.log(userInput);
-else console.log("Invalid input");*/
+let userInput = prompt("Please enter something");
+if (!isNaN(parseInt(userInput))) {
+    console.log(userInput ** 2);
+} 
+else if (typeof userInput === "string") {
+    console.log(userInput);
+}
+else {
+    console.log("Invalid input.")
+}
