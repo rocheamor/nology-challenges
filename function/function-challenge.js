@@ -50,13 +50,15 @@ ageInSeconds(32) => 1009152000
 ``` */
 
 function ageInDays(ageInYears) {
-    return ageInYears * 365;
+    const daysInYear = 365;
+    return ageInYears * daysInYear;
 }
 
 console.log(ageInDays(32));
 
 function ageInSeconds(ageInYears) {
-    return ageInYears * 31536000;
+    const secondsInYear = 31536000;
+    return ageInYears * secondsInYear;
 }
 
 console.log(ageInSeconds(32));
@@ -128,3 +130,11 @@ function lessThan100 (firstNum, secondNum) {
 console.log(lessThan100(22 , 15));
 console.log(lessThan100(83 , 34));
 console.log(lessThan100(3 , 77));
+
+//OOORRR!!!!
+
+const anotherLessThan100 = (firstNum, secondNum) => firstNum + secondNum < 100;
+
+console.log(anotherLessThan100(22 , 15));
+console.log(anotherLessThan100(83 , 34));
+console.log(anotherLessThan100(3 , 77));
