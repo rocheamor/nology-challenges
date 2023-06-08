@@ -25,7 +25,7 @@ Log the number of rotations of the moon given the number of earth days you speci
 let numberOfEarthDays = 365;
 let numberOfMoonRotations = 29.5;
 
-console.log(numberOfEarthDays/numberOfMoonRotations);
+console.log(Math.round(numberOfEarthDays/numberOfMoonRotations));
 
 
 /*## Challenge: Calculating Moon Orbits
@@ -36,5 +36,5 @@ Log the number of orbits the moon can do, given the number of earth days*/
 
 let numberOfEarthDaysMoonRotation = numberOfEarthDays/numberOfMoonRotations;
 
-console.log(numberOfEarthDays/numberOfEarthDaysMoonRotation);
+console.log(Math.round(numberOfEarthDays/numberOfEarthDaysMoonRotation));
 
