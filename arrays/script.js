@@ -26,6 +26,7 @@ myHobbies.push("watching Netflix");
 console.log(myHobbies[myHobbies.length-1]);
 
 console.log(myHobbies.join(", "));
+console.log(myHobbies.toString());
 
 /* ## Challenge: Grocery Lists
 
