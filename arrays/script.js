@@ -39,3 +39,4 @@ Log this list to the console, make sure the output is pipe delimited
 const groceryItems = ["egg", "milk" , "bread" , "meat" , "rice"];
 
 console.log(groceryItems.join("|"));
+
