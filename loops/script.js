@@ -85,6 +85,19 @@ for (let i = 0 ; i < myString.length ; i++) {
 }
 console.log(newString);
 
+// const wordStr = "computer"
+// let newStr = ""
+
+// for (let i = 0; i < wordStr.length; i++) {
+//   if (!(i % 2)) {
+//     newStr += wordStr[i].toUpperCase()
+//   } else {
+//     newStr += String.fromCharCode(wordStr[i].charCodeAt(0)+1)
+//   }
+// }
+
+// console.log(newStr)
+
 /* # Challenge: Removing Vowels
 
 MVP
@@ -123,6 +136,40 @@ for (let i = 0; i < nameWithVowels.length; i++) {
   }
 }
 console.log(nameWithVowelCondition);
+
+//KAI's Solution
+// const stringName = "martyna";
+// let stringNameNoVowels = "";
+// const vowels = ["a", "e", "i", "o", "u"];
+
+// for (let i = 0; i < stringName.length; i++) {
+//     let char = stringName[i];
+//     if (!vowels.includes(char)) {
+//         stringNameNoVowels += char;
+//     }
+// }
+
+// console.log(stringNameNoVowels, "- this is for part 1");
+
+//KAI's SOLUTION
+// const stringName = "martyna";
+// let stringNameNoVowels = "";
+// const vowels = ["a", "e", "i", "o", "u"];
+// const specialLetters = ["l", "m", "r"];
+
+// for (let i = 0; i < stringName.length; i++) {
+//     let char = stringName[i];
+//     let nextChar = stringName[i + 1];
+//     // add the character if: a) not a vowel, or b) the next character is a vowel but is succeeded by a special character
+//     if (
+//         !vowels.includes(char) ||
+//         (nextChar && specialLetters.includes(nextChar))
+//     ) {
+//         stringNameNoVowels += stringName[i];
+//     }
+// }
+
+// console.log(stringNameNoVowels, "- this is the bonus part");
 
 /* ## Loop through an array backwards
 Console.log() every element from the array */
